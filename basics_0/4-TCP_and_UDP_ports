@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# Displays sockets and where they belong.
+# Displays listening ports with PID and program name
 
-ss -tulnp
+netstat -lp
